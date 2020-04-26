@@ -1,0 +1,40 @@
+<div class="nav-central">
+    <div class="numbers">
+
+        <div *ngIf = "location == '/'">
+            <div class="number-item">
+                <div class="barrita" @Barrita></div>
+                <span @Numero>01</span>
+                <span @NumeroDos>home</span>
+            </div>
+        </div>
+        
+        <div *ngIf = "location == '/home'">
+            <div class="number-item">
+                <div class="barrita" @Barrita></div>
+                <span @Numero>01</span>
+                <span @NumeroDos>home</span>
+            </div>
+        </div>
+
+        <div *ngIf = "location == '/proyectos'">
+            <div class="number-item">
+                <div class="barrita" @Barrita></div>
+                <span @Numero>02</span>
+                <span @NumeroDos>proyectos</span>
+            </div>
+        </div>
+        
+        <div *ngIf = "location == '/hablemos'">
+            <div class="number-item">
+                <div class="barrita" @Barrita></div>
+                <span @Numero>03</span>
+                <span @NumeroDos>hablemos</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="dots">
+        
+    </div>
+</div>

@@ -1,0 +1,139 @@
+$white: #ffffff
+$fcolm-bg: #111111
+$container-bg: #161616
+$color-text: #D3D0CB
+$prominent: #8CFBDE
+$noactive: #737373
+    
+header
+  padding: 40px 30px
+  .container
+    display: flex
+    justify-content: space-between
+    .logo
+      a
+        max-width: 65px
+        width: 100%
+        display: block
+        img
+            width: 100%
+    nav
+      align-items: center
+      display: flex
+      .menu-container
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: #000
+        z-index: 999999999 
+      .hidden-menu
+        display: none
+      ul
+        display: flex
+        flex-flow: column
+        align-items: flex-end
+        padding: 144px 81px
+        max-width: 1440px
+        margin: 0 auto
+        li
+          margin: 0 0 20px 0
+          a
+            margin: 0 0 0 30px
+            font-size: 18px
+            font-weight: 400
+            color: $noactive
+            position: relative
+            transition: all ease-in-out .2s
+          &:last-child
+              a
+                color: $prominent
+.menu-toggle
+  flex: 0 0 auto
+  width: 40px
+  height: 40px
+  border: $prominent
+  cursor: pointer
+  position: relative
+
+.hamburger, .cross
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 999999999999999999
+
+.hamburger span
+  display: block
+  width: 18px
+  height: 2px
+  margin-bottom: 3px
+  overflow: hidden
+  position: relative
+
+  &:last-child
+    margin: 0
+
+  &:before
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: $prominent
+    transform: translateX(-200%)
+    transition: transform ease 300ms
+    z-index: 999999999999999999
+
+  &:after
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: $prominent
+    transform: translateX(-200%)
+    transition: transform ease 300ms
+    transform: translateX(0)
+    z-index: 999999999999999999
+
+  &:nth-child(2)
+    &:before, &:after
+      transition-delay: 75ms
+
+  &:last-child
+    &:before, &:after
+      transition-delay: 150ms
+
+.menu-toggle
+  &:hover .hamburger span
+    &:before
+      transform: translateX(0)
+
+    &:after
+      transform: translateX(200%)
+
+  &.active .hamburger span
+    &:before
+      transform: translateX(100%)
+
+    &:after
+      transform: translateX(200%)
+
+.cross span
+  display: block
+  width: 18px
+  height: 2px
+  background-color: $prominent
+  transform: translateY(50%) rotate(45deg) scaleX(0)
+  transition: transform ease 200ms
+
+  &:last-child
+    transform: translateY(-50%) rotate(-45deg) scaleX(0)
+
+.menu-toggle.active .cross span
+  transition-delay: 450ms
+  transform: translateY(50%) rotate(45deg) scaleX(1)
+
+  &:last-child
+    transform: translateY(-50%) rotate(-45deg) scaleX(1)
+        
