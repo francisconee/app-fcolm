@@ -173,7 +173,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"wrapper-home\">\n    <div class=\"wrapper-title\">\n        <h1>\n            <span @Ui>ui design</span>\n            <span @Front>front.end</span>\n        </h1>\n        <p @Parrafo>\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt nibh sit amet quam congue semper. Nunc quis congue nulla. Curabitur eu tincidunt neque, eget tincidunt urna. Donec lobortis est nec orci porta viverra.\n        </p>\n    </div>\n    <div class=\"wrapper-img\">\n        <div class=\"imgyo\">\n            <img @Face src=\"../../assets/img/yo.png\" alt=\"\">\n        </div>\n    </div>\n</div>\n\n\n            ";
+    __webpack_exports__["default"] = "<div class=\"wrapper-home\">\n    <div class=\"wrapper-title\">\n        <h1>\n            <span @Ui>ui design</span>\n            <span @Front>front.end</span>\n        </h1>\n        <p @Parrafo>\n                Hola! Yo soy Francisco. Me apasiona diseñar y crear productos digitales altamente pulidos, y disfruto de equipos interdisciplinarios, te invito a ver mi trabajo, nos vemos luego!\n        </p>\n    </div>\n    <div class=\"wrapper-img\">\n        <div class=\"imgyo\">\n            <img @Face src=\"../../assets/img/yo.png\" alt=\"\">\n        </div>\n    </div>\n</div>\n\n\n            ";
     /***/
   },
 
