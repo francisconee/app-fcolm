@@ -19,8 +19,8 @@ import { MapaComponent } from './mapa/mapa.component';
 const rutas: Routes = [
   {
     path: '',
-    pathMatch: 'full',
-    redirectTo: 'home'
+    pathMatch: 'prefix',
+    component: HomeComponent
   },
   {
     path: 'home',
