@@ -27,6 +27,43 @@ h3
    color: $blue
    font-weight: normal 
 
+label
+    color: $blue
+    font-size: 22px
+
+input
+    width: 100%
+    border-top: 0px
+    border-left: 0px
+    border-right: 0px
+    border-bottom: 1px solid #C4C4C4
+    padding: 20px 0
+    &:focus
+        outline: none
+
+textarea
+    width: 100%
+    border-top: 0px
+    border-left: 0px
+    border-right: 0px
+    border-bottom: 1px solid #C4C4C4
+    padding: 20px 0
+    &:focus
+        outline: none
+
+button
+    border: 0px
+    background: transparent
+    cursor: pointer
+    
+.wrap-form
+    display: flex
+    flex-flow: column wrap
+    min-width: 470px
+    width: 100%
+    margin: 0 0 40px 0
+
+
 .mini-title
     padding: 0 0 0 18px
     position: relative
@@ -211,3 +248,38 @@ nav
     .container
         display: flex
         justify-content: space-between
+        .box
+            &:nth-of-type(2)
+                form
+                    margin: 40px 0 0 0
+                    .wrap-form
+                        &:last-child
+                            align-items: flex-end
+                            
+                
+
+
+footer
+    padding: 150px 0
+    .container
+        display: flex
+        flex-flow: column wrap
+        align-items: center
+        picture
+            display: flex
+            img
+                width: 84px
+                height: 84px
+        p
+            font-size: 18px
+            padding: 40px 0
+            color: $gris
+            margin: 0 0 0 0
+        ul
+            display: flex
+            li
+                margin: 0 10px 
+                a
+                    display: block
+                    img
+                        width: 24px

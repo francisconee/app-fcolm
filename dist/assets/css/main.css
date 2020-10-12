@@ -32,6 +32,56 @@ h3 {
   font-weight: normal;
 }
 
+label {
+  color: #5762D5;
+  font-size: 22px;
+}
+
+input {
+  width: 100%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 20px 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 20px 0;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.wrap-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  min-width: 470px;
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+
 .mini-title {
   padding: 0 0 0 18px;
   position: relative;
@@ -336,5 +386,68 @@ nav ul li a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+#contacto .container .box:nth-of-type(2) form {
+  margin: 40px 0 0 0;
+}
+
+#contacto .container .box:nth-of-type(2) form .wrap-form:last-child {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer {
+  padding: 150px 0;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container picture img {
+  width: 84px;
+  height: 84px;
+}
+
+footer .container p {
+  font-size: 18px;
+  padding: 40px 0;
+  color: #666666;
+  margin: 0 0 0 0;
+}
+
+footer .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container ul li {
+  margin: 0 10px;
+}
+
+footer .container ul li a {
+  display: block;
+}
+
+footer .container ul li a img {
+  width: 24px;
 }
 /*# sourceMappingURL=main.css.map */
