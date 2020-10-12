@@ -1,0 +1,340 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, small {
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Gilroy';
+  font-size: 74px;
+  color: #5762D5;
+  line-height: 60px;
+  margin: 0 0 60px 0;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 28px;
+  color: #5762D5;
+  font-weight: normal;
+}
+
+.mini-title {
+  padding: 0 0 0 18px;
+  position: relative;
+}
+
+.mini-title:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 1px;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  top: 7.5px;
+}
+
+.box-texto small {
+  font-size: 12px;
+}
+
+.box-texto h3 {
+  margin: 25px 0 50px 0;
+}
+
+.box-texto p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+.box-texto .gobottom picture img {
+  width: 24px;
+  height: 24px;
+}
+
+.box-texto .gomail {
+  text-decoration: underline;
+  color: #5762D5;
+  font-size: 28px;
+  margin: 117px 0 0 0;
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+.container-full, .container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container-full {
+  max-width: 1220px;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1042px;
+}
+
+header .container-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container-full .logo picture img {
+  max-width: 66px;
+  width: 100%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  margin: 0 0 0 75px;
+}
+
+nav ul li a {
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.hero {
+  padding: 130px 0;
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .container .name .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container .name .social ul li {
+  margin: 0 20px 0 0;
+}
+
+.hero .container .name .social ul li a picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container .name .social ul li a picture img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.hero .container .name .social ul li a picture img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.hero .container .name .avatar {
+  position: absolute;
+  z-index: -1;
+  top: -157px;
+  left: 196px;
+}
+
+.hero .container .introduccion small {
+  font-size: 12px;
+}
+
+.hero .container .introduccion h3 {
+  margin: 25px 0 50px 0;
+}
+
+.hero .container .introduccion p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+.hero .container .introduccion .gobottom picture img {
+  width: 24px;
+  height: 24px;
+}
+
+#servicios {
+  margin: 50px 0;
+  padding: 100px 0 250px 0;
+  background: #F6F6F6;
+}
+
+#servicios .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+#servicios .container .box:nth-of-type(1) a {
+  text-decoration: underline;
+  color: #5762D5;
+  font-size: 28px;
+  margin: 117px 0 0 0;
+  display: block;
+}
+
+#servicios .container .box:nth-of-type(2) .wrap-counter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#servicios .container .box:nth-of-type(2) .wrap-counter .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 55px 0 0 0;
+}
+
+#servicios .container .box:nth-of-type(2) .wrap-counter .counter span {
+  color: #5762D5;
+}
+
+#servicios .container .box:nth-of-type(2) .wrap-counter .counter span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 50px;
+}
+
+#servicios .container .box:nth-of-type(2) .wrap-counter .counter span:nth-of-type(2) {
+  font-size: 14px;
+  margin: 0 0 0 10px;
+}
+
+#servicios .container .wrap-box-morado {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  bottom: -400px;
+}
+
+#servicios .container .wrap-box-morado .box {
+  max-width: 317px;
+  height: 282px;
+  width: 100%;
+  padding: 40px 60px;
+  background: #575366;
+}
+
+#trabajos {
+  margin: 300px 0 0 0;
+}
+
+#trabajos .container .grid-trabajos {
+  -webkit-transform: translateY(-206px);
+          transform: translateY(-206px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+#trabajos .container .grid-trabajos .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 -100px 0;
+}
+
+#trabajos .container .grid-trabajos .row .box {
+  padding: 20px;
+  width: 470px;
+  height: 515px;
+  background: #575366;
+}
+
+#trabajos .container .grid-trabajos .row:nth-child(odd) {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#trabajos .container .grid-trabajos .row:nth-child(even) {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#contacto .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
