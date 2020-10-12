@@ -241,6 +241,19 @@ nav
                     width: 470px
                     height: 515px
                     background: $morado
+                    &__title
+                        display: flex
+                        flex-flow: row nowrap
+                        justify-content: space-between
+                        align-items: center
+                        span
+                            display: block
+                            color: #ffffff
+                            &:nth-of-type(1)
+                                font-size: 22px
+                            &:nth-of-type(2)
+                                font-size: 12px
+                                
                 &:nth-child(odd)
                     justify-content: flex-end
                 &:nth-child(even)

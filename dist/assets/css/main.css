@@ -369,6 +369,35 @@ nav ul li a {
   background: #575366;
 }
 
+#trabajos .container .grid-trabajos .row .box__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#trabajos .container .grid-trabajos .row .box__title span {
+  display: block;
+  color: #ffffff;
+}
+
+#trabajos .container .grid-trabajos .row .box__title span:nth-of-type(1) {
+  font-size: 22px;
+}
+
+#trabajos .container .grid-trabajos .row .box__title span:nth-of-type(2) {
+  font-size: 12px;
+}
+
 #trabajos .container .grid-trabajos .row:nth-child(odd) {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
