@@ -747,7 +747,10 @@ footer .container ul li a img {
   footer .container {
     padding: 0 20px;
   }
-  footer .container p {
+  footer .container .box {
+    width: 100%;
+  }
+  footer .container .box p {
     font-size: 14px;
     padding: 20px 0 10px 0;
   }
