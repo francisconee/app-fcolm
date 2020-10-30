@@ -741,16 +741,16 @@ footer .container ul li a img {
             justify-content: space-between;
     padding: 0 20px;
   }
+  #contacto .container .box {
+    width: 100%;
+  }
   footer {
     padding: 80px 0;
   }
   footer .container {
     padding: 0 20px;
   }
-  footer .container .box {
-    width: 100%;
-  }
-  footer .container .box p {
+  footer .container p {
     font-size: 14px;
     padding: 20px 0 10px 0;
   }
