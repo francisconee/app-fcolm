@@ -419,6 +419,10 @@ header .container-full nav ul li a {
           justify-content: space-between;
 }
 
+#contacto .container .box {
+  width: 50%;
+}
+
 #contacto .container .box:nth-of-type(2) form {
   margin: 40px 0 0 0;
 }
